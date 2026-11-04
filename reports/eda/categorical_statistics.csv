@@ -1,0 +1,26 @@
+,count,unique,top,freq
+created_at,10000,9939,2024-12-10 09:46:00,2
+issue_description,10000,9357,How do I turn off auto-renewal?,62
+category,10000,11,Refunds,1074
+issue_type_id,10000,100,security_ip_allowlist,242
+product,10000,6,Web Portal,1711
+channel,10000,5,Email,3402
+region,10000,6,North America,3359
+language,10000,6,Mandarin,1674
+customer_name,10000,400,Chen Nguyen,40
+customer_email,10000,9974,tom.wang629@outlook.com,3
+customer_gender,10000,3,Male,3373
+subscription_type,10000,4,Basic,3144
+customer_segment,10000,4,Individual,2549
+priority,10000,4,Medium,3316
+assigned_team,10000,5,Tier 1 Support,3540
+assigned_to,10000,35,T1-Ana R.,2323
+status,10000,7,Closed,8968
+escalated,9005,2,No,6178
+escalation_reason,2827,3,Requires specialist / policy decision,1991
+first_resolved_at,9005,8913,2024-07-08 16:30:00,4
+resolved_at,9005,8912,2024-07-08 16:30:00,4
+closed_at,9361,9322,2023-10-14 17:56:00,2
+resolved_by,9005,35,T1-Ana R.,2113
+resolution_notes,9398,10,"Investigated the issue, applied a fix, and verified with the customer.",1335
+sla_breached,10000,2,No,8960

@@ -1,0 +1,824 @@
+[
+    {
+        "model": "Majority Baseline",
+        "target": "category",
+        "classification_report": {
+            "Account Management": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 206.0
+            },
+            "Authentication & Access": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 181.0
+            },
+            "Billing": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 206.0
+            },
+            "Bugs & Errors": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 174.0
+            },
+            "Data Sync": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 179.0
+            },
+            "Integrations & API": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 159.0
+            },
+            "Onboarding & How-To": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 188.0
+            },
+            "Performance": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 134.0
+            },
+            "Refunds": {
+                "precision": 0.1057550418101328,
+                "recall": 1.0,
+                "f1-score": 0.19128113879003558,
+                "support": 215.0
+            },
+            "Security": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 183.0
+            },
+            "Subscription": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 208.0
+            },
+            "accuracy": 0.1057550418101328,
+            "macro avg": {
+                "precision": 0.009614094710012074,
+                "recall": 0.09090909090909091,
+                "f1-score": 0.01738919443545778,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 0.011184128868262937,
+                "recall": 0.1057550418101328,
+                "f1-score": 0.02022894483023003,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                206,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                181,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                206,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                174,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                179,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                159,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                188,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                134,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                215,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                183,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                208,
+                0,
+                0
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "Account Management",
+            "Authentication & Access",
+            "Billing",
+            "Bugs & Errors",
+            "Data Sync",
+            "Integrations & API",
+            "Onboarding & How-To",
+            "Performance",
+            "Refunds",
+            "Security",
+            "Subscription"
+        ]
+    },
+    {
+        "model": "Multinomial Naive Bayes",
+        "target": "category",
+        "classification_report": {
+            "Account Management": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 206.0
+            },
+            "Authentication & Access": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 181.0
+            },
+            "Billing": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 206.0
+            },
+            "Bugs & Errors": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 174.0
+            },
+            "Data Sync": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 179.0
+            },
+            "Integrations & API": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 159.0
+            },
+            "Onboarding & How-To": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 188.0
+            },
+            "Performance": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 134.0
+            },
+            "Refunds": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 215.0
+            },
+            "Security": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 183.0
+            },
+            "Subscription": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 208.0
+            },
+            "accuracy": 1.0,
+            "macro avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1-score": 1.0,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                206,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                181,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                206,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                174,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                179,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                159,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                188,
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                134,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                215,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                183,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                208
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "Account Management",
+            "Authentication & Access",
+            "Billing",
+            "Bugs & Errors",
+            "Data Sync",
+            "Integrations & API",
+            "Onboarding & How-To",
+            "Performance",
+            "Refunds",
+            "Security",
+            "Subscription"
+        ]
+    },
+    {
+        "model": "Majority Baseline",
+        "target": "priority",
+        "classification_report": {
+            "High": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 528.0
+            },
+            "Low": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 574.0
+            },
+            "Medium": {
+                "precision": 0.3398917855386129,
+                "recall": 1.0,
+                "f1-score": 0.5073421439060205,
+                "support": 691.0
+            },
+            "Urgent": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 240.0
+            },
+            "accuracy": 0.3398917855386129,
+            "macro avg": {
+                "precision": 0.08497294638465322,
+                "recall": 0.25,
+                "f1-score": 0.12683553597650513,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 0.11552642587662641,
+                "recall": 0.3398917855386129,
+                "f1-score": 0.1724414271712052,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                528,
+                0
+            ],
+            [
+                0,
+                0,
+                574,
+                0
+            ],
+            [
+                0,
+                0,
+                691,
+                0
+            ],
+            [
+                0,
+                0,
+                240,
+                0
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "High",
+            "Low",
+            "Medium",
+            "Urgent"
+        ]
+    },
+    {
+        "model": "Multinomial Naive Bayes",
+        "target": "priority",
+        "classification_report": {
+            "High": {
+                "precision": 0.43804537521815007,
+                "recall": 0.4753787878787879,
+                "f1-score": 0.45594913714804725,
+                "support": 528.0
+            },
+            "Low": {
+                "precision": 0.5437908496732026,
+                "recall": 0.7247386759581882,
+                "f1-score": 0.6213592233009708,
+                "support": 574.0
+            },
+            "Medium": {
+                "precision": 0.4775888717156105,
+                "recall": 0.447178002894356,
+                "f1-score": 0.4618834080717489,
+                "support": 691.0
+            },
+            "Urgent": {
+                "precision": 0.3333333333333333,
+                "recall": 0.06666666666666667,
+                "f1-score": 0.1111111111111111,
+                "support": 240.0
+            },
+            "accuracy": 0.4879488440727988,
+            "macro avg": {
+                "precision": 0.4481896074850741,
+                "recall": 0.42849053334949966,
+                "f1-score": 0.41257571990796954,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 0.4689807261107174,
+                "recall": 0.4879488440727988,
+                "f1-score": 0.4639593901786381,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                251,
+                104,
+                154,
+                19
+            ],
+            [
+                35,
+                416,
+                121,
+                2
+            ],
+            [
+                157,
+                214,
+                309,
+                11
+            ],
+            [
+                130,
+                31,
+                63,
+                16
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "High",
+            "Low",
+            "Medium",
+            "Urgent"
+        ]
+    },
+    {
+        "model": "Majority Baseline",
+        "target": "assigned_team",
+        "classification_report": {
+            "Billing": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 393.0
+            },
+            "Engineering": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 466.0
+            },
+            "Security": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 162.0
+            },
+            "Tier 1 Support": {
+                "precision": 0.3585833743236596,
+                "recall": 1.0,
+                "f1-score": 0.5278783490224475,
+                "support": 729.0
+            },
+            "Tier 2 Support": {
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1-score": 0.0,
+                "support": 283.0
+            },
+            "accuracy": 0.3585833743236596,
+            "macro avg": {
+                "precision": 0.07171667486473192,
+                "recall": 0.2,
+                "f1-score": 0.10557566980448949,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 0.12858203634134177,
+                "recall": 0.3585833743236596,
+                "f1-score": 0.18928839962487173,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                0,
+                0,
+                0,
+                393,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                466,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                162,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                729,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                283,
+                0
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "Billing",
+            "Engineering",
+            "Security",
+            "Tier 1 Support",
+            "Tier 2 Support"
+        ]
+    },
+    {
+        "model": "Multinomial Naive Bayes",
+        "target": "assigned_team",
+        "classification_report": {
+            "Billing": {
+                "precision": 0.9121140142517815,
+                "recall": 0.9770992366412213,
+                "f1-score": 0.9434889434889435,
+                "support": 393.0
+            },
+            "Engineering": {
+                "precision": 0.7171875,
+                "recall": 0.9849785407725322,
+                "f1-score": 0.8300180831826401,
+                "support": 466.0
+            },
+            "Security": {
+                "precision": 0.8688524590163934,
+                "recall": 0.9814814814814815,
+                "f1-score": 0.9217391304347826,
+                "support": 162.0
+            },
+            "Tier 1 Support": {
+                "precision": 0.9034175334323923,
+                "recall": 0.8340192043895748,
+                "f1-score": 0.8673323823109843,
+                "support": 729.0
+            },
+            "Tier 2 Support": {
+                "precision": 0.47413793103448276,
+                "recall": 0.19434628975265017,
+                "f1-score": 0.2756892230576441,
+                "support": 283.0
+            },
+            "accuracy": 0.8189867191342843,
+            "macro avg": {
+                "precision": 0.77514188754701,
+                "recall": 0.794384950607492,
+                "f1-score": 0.767653552494999,
+                "support": 2033.0
+            },
+            "weighted avg": {
+                "precision": 0.7998999986800681,
+                "recall": 0.8189867191342843,
+                "f1-score": 0.7954779525404431,
+                "support": 2033.0
+            }
+        },
+        "confusion_matrix": [
+            [
+                384,
+                1,
+                0,
+                8,
+                0
+            ],
+            [
+                0,
+                459,
+                0,
+                4,
+                3
+            ],
+            [
+                1,
+                0,
+                159,
+                2,
+                0
+            ],
+            [
+                10,
+                49,
+                4,
+                608,
+                58
+            ],
+            [
+                26,
+                131,
+                20,
+                51,
+                55
+            ]
+        ],
+        "confusion_matrix_labels": [
+            "Billing",
+            "Engineering",
+            "Security",
+            "Tier 1 Support",
+            "Tier 2 Support"
+        ]
+    }
+]
